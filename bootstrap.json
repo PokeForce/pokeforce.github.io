@@ -1,0 +1,90 @@
+{
+  "artifacts": [
+    {
+      "hash": "411578b9aacaf66f84e41ff3b29fed340405ba6b1c724c1e3e0133245e1c936d",
+      "name": "2011Scape.jar",
+      "path": "https://2011scape.com/2011Scape.jar",
+      "size": 2945024
+    }
+  ],
+  "client": {
+    "artifactId": "client",
+    "classifier": "shaded",
+    "extension": "jar",
+    "groupId": "net.runelite",
+    "properties": {},
+    "version": "1.5.22.1"
+  },
+  "clientJvm17Arguments": [
+    "-XX:+DisableAttachMechanism",
+    "-Xmx512m",
+    "-Xss2m",
+    "-XX:CompileThreshold=1500",
+    "-Djna.nosys=true",
+    "--add-opens=java.desktop/sun.awt=ALL-UNNAMED"
+  ],
+  "clientJvm17MacArguments": [
+    "-XX:+DisableAttachMechanism",
+    "-Xmx512m",
+    "-Xss2m",
+    "-XX:CompileThreshold=1500",
+    "-Djna.nosys=true",
+    "--add-opens=java.desktop/sun.awt=ALL-UNNAMED",
+    "--add-opens=java.desktop/com.apple.eawt=ALL-UNNAMED"
+  ],
+  "clientJvm9Arguments": [
+    "-XX:+DisableAttachMechanism",
+    "-Xmx512m",
+    "-Xss2m",
+    "-XX:CompileThreshold=1500",
+    "-Djna.nosys=true"
+  ],
+  "clientJvmArguments": [
+    "-XX:+DisableAttachMechanism",
+    "-Xmx512m",
+    "-Xss2m",
+    "-XX:CompileThreshold=1500",
+    "-Xincgc",
+    "-XX:+UseConcMarkSweepGC",
+    "-XX:+UseParNewGC",
+    "-Djna.nosys=true"
+  ],
+  "launcherArguments": [
+    "-XX:+DisableAttachMechanism",
+    "-Drunelite.launcher.nojvm=true",
+    "-Xmx512m",
+    "-Xss2m",
+    "-XX:CompileThreshold=1500",
+    "-Xincgc",
+    "-XX:+UseConcMarkSweepGC",
+    "-XX:+UseParNewGC",
+    "-Djna.nosys=true"
+  ],
+  "launcherJvm11Arguments": [
+    "-XX:+DisableAttachMechanism",
+    "-Drunelite.launcher.nojvm=true",
+    "-Xmx512m",
+    "-Xss2m",
+    "-XX:CompileThreshold=1500",
+    "-Djna.nosys=true"
+  ],
+  "launcherJvm17Arguments": [
+    "-XX:+DisableAttachMechanism",
+    "-Drunelite.launcher.nojvm=true",
+    "-Xmx512m",
+    "-Xss2m",
+    "-XX:CompileThreshold=1500",
+    "-Djna.nosys=true",
+    "--add-opens=java.desktop/sun.awt=ALL-UNNAMED"
+  ],
+  "launcherJvm17MacArguments": [
+    "-XX:+DisableAttachMechanism",
+    "-Drunelite.launcher.nojvm=true",
+    "-Xmx512m",
+    "-Xss2m",
+    "-XX:CompileThreshold=1500",
+    "-Djna.nosys=true",
+    "--add-opens=java.desktop/sun.awt=ALL-UNNAMED",
+    "--add-opens=java.desktop/com.apple.eawt=ALL-UNNAMED"
+  ]
+}
